@@ -25,7 +25,7 @@ function foo($data) {
 /* Question 1
 Cette fonction trie les tableaux contenus dans data par le premier element du plus petit au plus grand.
 Puis parcours chaque tableau et compare l'intervalle du tableau actuel au dernier tableau si l'intervalle actuel ne se 
-chevauche pas avec le dernier on l'ajoute a la liste d'intervalles  si non on fusion le sintervalles avec la valeur la plus petite des deux
+chevauche pas avec le dernier on l'ajoute a la liste d'intervalles  si non on fusionne les intervalles avec la valeur la plus petite des deux
 pour le premier element et la plus grandes des deux du deuxième élément */
 
 print_r(foo([[3, 6], [3, 4], [15, 20], [16, 17], [1, 4], [6, 10], [3, 6]]));
